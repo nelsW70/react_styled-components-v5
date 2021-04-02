@@ -16,8 +16,9 @@ function App() {
     <>
       <GlobalStyle />
       <h1>App</h1>
-      <Button>primary button</Button>
-      <Button secondary>secondary button</Button>
+      <Button>Primary button</Button>
+      <Button secondary>Secondary button</Button>
+      <Button large>Large button</Button>
     </>
   );
 }
