@@ -8,11 +8,11 @@ import DarkTheme from 'themes/dark';
 
 const GlobalStyle = createGlobalStyle`
   body {
-    background: white;
-    min-height: 100vh;
-    margin: 0;
-    color: black;
-    font-family: 'Kaushan Script'
+    background: ${p => p.theme.bodyBackgroundColor};
+		min-height: 100vh;
+		margin: 0;
+		color: ${p => p.theme.bodyFontColor};
+		font-family: 'Kaushan Script'
   }
 `;
 
